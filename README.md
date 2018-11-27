@@ -1,3 +1,8 @@
+mongoimport --host best-for-you-db-uy.documents.azure.com:10255 -u best-for-you-db-uy -p tOi6dWD3cjwiCiq7VTa6wb7V9BFpTti3VkHVbp2BbMFeFJauUvQt9L97QJE67ML0O0nahfSTiROt2kQ2HKN1Gg== --db best-for-you-organics --collection plans --ssl --sslAllowInvalidCertificates --type json --file ~/MongoExport/plans.json
+
+bestforyouregistryufuky.azurecr.io/best-for-you-organics:latest
+
+
 # OSS PaaS and DevOps workshop
 
 This repository contains resources for use with the OSS PaaS and DevOps workshop, including the starter MERN app, code for Azure Functions, scripts for seeding data into the MongoDB database, as well as exporting data, and an ARM template for deploying the Lab virtual machine (VM) to Azure.
